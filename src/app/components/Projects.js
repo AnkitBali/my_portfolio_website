@@ -10,15 +10,15 @@ const Projects = () => {
     const projects = [
         {
             title: "Free Tamil Nadu's Temples Website",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            image: "/project1.jpg",
+            description: "This website is created using Next.js and React.js. It includes a variety of components and uses advanced JavaScript techniques to implement the different features you'll find on the site.",
+            image: "/freeTNT.png",
             liveLink: "https://example.com",
             githubLink: "https://github.com/example/project1",
         },
         {
-            title: "Project 2",
-            description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            image: "/project2.jpg",
+            title: "Amita Care Website",
+            description: "This website serves as a platform for mental health therapy, offering a range of services including counseling sessions and additional support. It is built on the WordPress framework and utilizes a variety of third-party plugins to enhance its functionality. These plugins enable features such as appointment scheduling, secure communication channels, and interactive resources to facilitate effective therapy sessions and support for visitors.",
+            image: "/amitacare.png",
             liveLink: "https://example.com",
             githubLink: "https://github.com/example/project2",
         },
