@@ -101,15 +101,17 @@ const Projects = () => {
 
     return (
         <>
-            <Spacer mt={'100px'} />
+            <Box id="projects"></Box>
+            <Spacer  mt={'150px'} />
               <Box
                 textAlign={"center"}
                 position={'relative'}
+                
                
               >  
               
               
-                    <Heading >Projects</Heading>
+                <Heading  >Projects</Heading>
                 
                 <Text color={666666} fontSize={'26px'} mt={10} mb={10}>Things I have built so far</Text>
                 

@@ -41,6 +41,7 @@ const TechStack = () => {
 
     return (
         <> 
+        <Box id="techstack"></Box>
         <Spacer mt={'150px'} />
         <Box 
         position={'relative'}

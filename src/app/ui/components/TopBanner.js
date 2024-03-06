@@ -84,9 +84,9 @@ const TopBanner = () => {
                                     borderRadius: '100%',
                                     // border: '1px solid #fff',
                                 }}
-                            width="200"
-                            height="200"
-                            src="/dp.png"
+                            width="250"
+                            height="250"
+                            src="/dpImg2.jpeg"
                             objectFit="cover" // Ensure the image fills the circular box
                         />
                     </Box>
