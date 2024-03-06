@@ -85,7 +85,7 @@ const TopBanner = () => {
                                     // border: '1px solid #fff',
                                 }}
                             width="250"
-                            height="250"
+                            height="200"
                             src="/dpImg2.jpeg"
                             objectFit="cover" // Ensure the image fills the circular box
                         />
