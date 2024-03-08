@@ -102,7 +102,7 @@ const Projects = () => {
     return (
         <>
             <Box id="projects"></Box>
-            <Spacer  mt={'150px'} />
+            <Spacer  mt={{base: '100px', md:'150px'}} />
               <Box
                 textAlign={"center"}
                 position={'relative'}
@@ -111,9 +111,9 @@ const Projects = () => {
               >  
               
               
-                <Heading  >Projects</Heading>
+                <Heading color={'#42446E'} fontSize={{ base: '30px', md: '48px' }}  >Projects</Heading>
                 
-                <Text color={666666} fontSize={'26px'} mt={10} mb={10}>Things I have built so far</Text>
+                <Text color={'#666666'} fontSize={{ base: '25px', md: '32px' }} mt={'20px'} mb={'20px'}>Things I have built so far</Text>
                 
             <Flex mt={0} flexWrap="wrap" justify={'center'} >
                 {projects.map((project, index) => (

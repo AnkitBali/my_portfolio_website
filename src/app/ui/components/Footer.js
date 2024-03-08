@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Text, Flex, HStack, Spacer, Link} from "@chakra-ui/react";
+import { Box, Text, Flex, HStack, Spacer, Link, Heading} from "@chakra-ui/react";
 import React from "react";
 
 export default function Footer() {
@@ -8,27 +8,30 @@ export default function Footer() {
         <>
         <Spacer mt={'100px'}/>
             <Box textAlign="right">
-                <HStack
-                 spacing={'100px'}
-                 justifyContent="flex-end"
-                 mr={'200px'}
+                <Flex direction={{base: "column", md: "row"}}
+                //  spacing={{base: "2px", md:'100px'}}
+                 justifyContent={{base: "center", md:"flex-end"}}
+                 mr={{base:"0px", md:'200px'}}
+                 textAlign={{base: "center", md: "left"}}
                  >
-                    <Text>
+                    <Heading color={'#42446E'} fontSize={{base: "15px", md: "35px"}}>
                         +91 8148253461
-                    </Text>
-                    <Text>
+                    </Heading>
+                    <Heading color={'#42446E'} fontSize={{ base: "15px", md: "35px" }}>
                         ankitbali.webdev@gmail.com
-                    </Text>
+                    </Heading>
                     
-                </HStack>
+                </Flex>
                 
 
                 <Spacer mt="20px" />
 
                 <hr class="custom-hr" />
-                <Spacer mt="10px" mb="20px" />
-                <Box textAlign="right"
-                mr={'200px'}
+                <Spacer mt={{base:"0px", md:"10px"}} mb="20px" />
+                <Box 
+                textAlign={{base: "center", md: "right"}}
+                mr={{base:"0px", md:'200px'}}
+                px={{base: "30px", md: "0px"}}
                 mb={'10px'}>
                 <Text>
                         Designed and built by {' '}
@@ -77,11 +80,20 @@ export default function Footer() {
                         </Text> */}
                 </Text>
                 </Box>
-                <Box textAlign="right"
-                    mr={'200px'}
-                    mb={'20px'}>
+                <Box 
+                    textAlign={{ base: "center", md: "right" }}
+                    mr={{ base: "0px", md: '200px' }}
+                    px={{ base: "30px", md: "0px" }}
+                    mb={'50px'}>
+                    
                     <Text>
-                        Design inspiration from Figma Design by <a href="https://www.figma.com/@pavanmg007" target="_blank">Pavan MG</a>
+                        Design inspiration from Figma Design by <Text
+                            as="span"
+                            // fontSize="35px"
+                            bgGradient="linear(to-r, #E70FAA 10%, #E70FAA 20%, #00C0FD 60%, #00C0FD 40%)"
+                            bgClip="text"
+                            fontWeight="bold"
+                        > <a href="https://www.figma.com/@pavanmg007" target="_blank">Pavan MG</a> </Text>
                     </Text>
                 </Box>
 

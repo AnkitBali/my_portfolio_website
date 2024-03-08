@@ -9,38 +9,53 @@ const TopBanner = () => {
 
     return (
         <>
-            <Flex align="center" justify="center" spacing={16}>
+            <Flex direction={{base: 'column', md: 'row'}} align="center" justify="center" spacing={16}>
         <Box
                 
                 spacing={16}
                 position="relative" 
                 // top="50%" 
-                left="20%" 
+                left={{base:"50%", md:"20%"}} 
                 transform="translateX(-50%)"
+                    alignContent={{ base: 'center', md: 'left' }}
+                    // textAlign={{ base: 'center', md: 'left' }}
         >
 
             
                
             <Box
             mt={'150px'}
+            width={{base: '300px', md: '500px'}}
+            
             >
+                <Flex direction={{base: 'column', md: 'column'}} 
+                // align={{base: 'center', md: 'left'}}
+                >
                     <Text
                     fontWeight={'bold'}
-                    fontSize={'35px'} color="#42446E">
-                        Hi 👋, <br />
-                        My name is <br />
+                    fontSize={{base: '25px', md: '35px'}} color="#42446E">
+                        Hi 👋,  
+                        
                     </Text>
+                            <Text fontWeight={'bold'}
+                            fontSize={{ base: '25px', md: '35px' }} color="#42446E"
+                            > 
+                            My name is
+                                 </Text>
+                        </Flex>
                     <Text
-                        fontSize={'35px'}
-                        bgGradient="linear(to-r, #E70FAA 10%, #E70FAA 0%, #00C0FD 50%, #00C0FD 100%)"
+                        fontSize={{ base: '25px', md: '35px' }}
+                            bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 30%)"
                         bgClip="text"
                         fontWeight="bold"
+                        ml={{base:'0px', md: '0px'}}
+
                     >
                         Ankit Bali
                     </Text>
                     <Text
                         fontWeight={'bold'}
-                        fontSize={'35px'}
+                            fontSize={{ base: '25px', md: '35px' }}
                          color="#42446E">
                         
                         I build things for web <br />
@@ -73,7 +88,7 @@ const TopBanner = () => {
                         /> */}
                     {/* </div> */}
                 {/* </Box> */} 
-                <Box mt={40} mr={'100px'}>
+                <Box mt={{base:"30px", md:'150px'}} mr={{base: '10px', md: '100px'}}>
                     <Box
                         id="xyz"
                     >

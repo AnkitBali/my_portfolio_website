@@ -1341,6 +1341,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(ssr)/./node_modules/@chakra-ui/icons/dist/chunk-D2LKO42G.mjs":
+/*!***************************************************************!*\
+  !*** ./node_modules/@chakra-ui/icons/dist/chunk-D2LKO42G.mjs ***!
+  \***************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   HamburgerIcon: () => (/* binding */ HamburgerIcon)\n/* harmony export */ });\n/* harmony import */ var _chakra_ui_icon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @chakra-ui/icon */ \"(ssr)/./node_modules/@chakra-ui/icon/dist/chunk-DEQZ7DVA.mjs\");\n/* __next_internal_client_entry_do_not_use__ HamburgerIcon auto */ // src/Hamburger.tsx\n\nvar HamburgerIcon = (0,_chakra_ui_icon__WEBPACK_IMPORTED_MODULE_0__.createIcon)({\n    displayName: \"HamburgerIcon\",\n    viewBox: \"0 0 24 24\",\n    d: \"M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z\"\n});\n //# sourceMappingURL=chunk-D2LKO42G.mjs.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQGNoYWtyYS11aS9pY29ucy9kaXN0L2NodW5rLUQyTEtPNDJHLm1qcyIsIm1hcHBpbmdzIjoiOzs7OzttRUFFQSxvQkFBb0I7QUFDeUI7QUFDN0MsSUFBSUMsZ0JBQWdCRCwyREFBVUEsQ0FBQztJQUM3QkUsYUFBYTtJQUNiQyxTQUFTO0lBQ1RDLEdBQUc7QUFDTDtBQUlFLENBQ0YsMkNBQTJDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vbm9kZV9tb2R1bGVzL0BjaGFrcmEtdWkvaWNvbnMvZGlzdC9jaHVuay1EMkxLTzQyRy5tanM/MWRlNSJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGNsaWVudCdcblxuLy8gc3JjL0hhbWJ1cmdlci50c3hcbmltcG9ydCB7IGNyZWF0ZUljb24gfSBmcm9tIFwiQGNoYWtyYS11aS9pY29uXCI7XG52YXIgSGFtYnVyZ2VySWNvbiA9IGNyZWF0ZUljb24oe1xuICBkaXNwbGF5TmFtZTogXCJIYW1idXJnZXJJY29uXCIsXG4gIHZpZXdCb3g6IFwiMCAwIDI0IDI0XCIsXG4gIGQ6IFwiTSAzIDUgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDMgNyBMIDIxIDcgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDIxIDUgTCAzIDUgeiBNIDMgMTEgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDMgMTMgTCAyMSAxMyBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjEgMTEgTCAzIDExIHogTSAzIDE3IEEgMS4wMDAxIDEuMDAwMSAwIDEgMCAzIDE5IEwgMjEgMTkgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDIxIDE3IEwgMyAxNyB6XCJcbn0pO1xuXG5leHBvcnQge1xuICBIYW1idXJnZXJJY29uXG59O1xuLy8jIHNvdXJjZU1hcHBpbmdVUkw9Y2h1bmstRDJMS080MkcubWpzLm1hcCJdLCJuYW1lcyI6WyJjcmVhdGVJY29uIiwiSGFtYnVyZ2VySWNvbiIsImRpc3BsYXlOYW1lIiwidmlld0JveCIsImQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@chakra-ui/icons/dist/chunk-D2LKO42G.mjs\n");
+
+/***/ }),
+
 /***/ "(ssr)/./node_modules/@chakra-ui/image/dist/chunk-QINAG4RG.mjs":
 /*!***************************************************************!*\
   !*** ./node_modules/@chakra-ui/image/dist/chunk-QINAG4RG.mjs ***!
