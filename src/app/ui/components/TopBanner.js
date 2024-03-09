@@ -9,15 +9,16 @@ const TopBanner = () => {
 
     return (
         <>
-            <Flex direction={{base: 'column', md: 'row'}} align="center" justify="center" spacing={16}>
+            <Flex direction={{base: 'column', sm: 'row', md: 'row'}} align="center" justify="center" spacing={16}>
         <Box
+        padding={{base: '0px', sm: '0px', md: '0px', lg: '0px'}}
                 
                 spacing={16}
                 position="relative" 
                 // top="50%" 
-                left={{base:"50%", md:"20%"}} 
+                left={{base:"35%", sm:"35%", md:"45%", lg:"30%"}} 
                 transform="translateX(-50%)"
-                    alignContent={{ base: 'center', md: 'left' }}
+                    alignContent={{ base: 'center', sm: 'left', md: 'left' }}
                     // textAlign={{ base: 'center', md: 'left' }}
         >
 
@@ -25,7 +26,7 @@ const TopBanner = () => {
                
             <Box
             mt={'150px'}
-            width={{base: '300px', md: '500px'}}
+            width={{base: '300px', sm: '300px', md: '500px'}}
             
             >
                 <Flex direction={{base: 'column', md: 'column'}} 
@@ -33,18 +34,18 @@ const TopBanner = () => {
                 >
                     <Text
                     fontWeight={'bold'}
-                    fontSize={{base: '25px', md: '35px'}} color="#42446E">
+                    fontSize={{base: '28px', sm: '28px', md: '35px'}} color="#42446E">
                         Hi 👋,  
                         
                     </Text>
                             <Text fontWeight={'bold'}
-                            fontSize={{ base: '25px', md: '35px' }} color="#42446E"
+                                fontSize={{ base: '28px', sm: '28px', md: '35px' }} color="#42446E"
                             > 
                             My name is
                                  </Text>
                         </Flex>
                     <Text
-                        fontSize={{ base: '25px', md: '35px' }}
+                            fontSize={{ base: '28px', sm: '28px', md: '35px' }}
                             bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 30%)"
                         bgClip="text"
                         fontWeight="bold"
@@ -55,7 +56,7 @@ const TopBanner = () => {
                     </Text>
                     <Text
                         fontWeight={'bold'}
-                            fontSize={{ base: '25px', md: '35px' }}
+                            fontSize={{ base: '28px', sm: '28px', md: '35px' }}
                          color="#42446E">
                         
                         I build things for web <br />
@@ -88,18 +89,29 @@ const TopBanner = () => {
                         /> */}
                     {/* </div> */}
                 {/* </Box> */} 
-                <Box mt={{base:"30px", md:'150px'}} mr={{base: '10px', md: '100px'}}>
+                <Box mt={{base:"30px", sm:'120px', md:'150px'}} mr={{base: '50px', sm:'50px', md: '100px'}}>
                     <Box
+                        // id={{base:"", sm:"", md:"xyz"}}
                         id="xyz"
+                        
+                        // width={{ base: '20px', sm: '250px', md: '300px' }} // Adjust container size
+                        // height={{ base: '10px', sm: '200px', md: '300px' }} // Adjust container size
+                        borderRadius="full"
                     >
+                        
                         <Image
+                        
                         id="abc"
+                        // id={{base:"", sm:"", md:"xyz"}}
                         borderRadius={'full'}
                             style={{
                                     borderRadius: '100%',
                                     // border: '1px solid #fff',
                                 }}
-                            width="250"
+                                // layout="responsive"
+                            // width={{ base: '150', sm: '200', md: '250' }} // Adjust image size
+                            // height={{ base: '100', sm: '150', md: '200' }}
+                            width="200"
                             height="200"
                             src="/dpImg2.jpeg"
                             objectFit="cover" // Ensure the image fills the circular box
@@ -111,17 +123,17 @@ const TopBanner = () => {
                 {`
         #abc{
           background: -webkit-linear-gradient(left top, #E70FAA 0%, #00C0FD 100%);
-  width: 300px;
-  height: 300px;
-  border-radius: 1000px;
-  padding: 10px;
+  width: 200px
+  height : 200px
+  border-radius: 100px;
+  padding: 5px;
         }
         #xyz{
+            width: 200px
+  height : 200px
             background: black;
-  width: 300px;
-  height: 300px;
-  border-radius: 1000px;
-
+  
+  border-radius: 100px;
         }
         `}
             </style>

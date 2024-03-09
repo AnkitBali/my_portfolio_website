@@ -8,23 +8,23 @@ export default function Footer() {
         <>
         <Spacer mt={'100px'}/>
             <Box textAlign="right">
-                <Flex direction={{base: "column", md: "row"}}
+                <Flex direction={{base: "column", sm:"row", md: "row"}}
                 //  spacing={{base: "2px", md:'100px'}}
                  justifyContent={{base: "center", md:"flex-end"}}
                  mr={{base:"0px", md:'200px'}}
                  textAlign={{base: "center", md: "left"}}
                  >
-                    <Heading color={'#42446E'} fontSize={{base: "15px", md: "35px"}}>
+                    <Heading color={'#42446E'} fontSize={{base: "15px", md: "15px"}}>
                         +91 8148253461
                     </Heading>
-                    <Heading color={'#42446E'} fontSize={{ base: "15px", md: "35px" }}>
+                    <Heading ml="20px" color={'#42446E'} fontSize={{ base: "15px", md: "15px" }}>
                         ankitbali.webdev@gmail.com
                     </Heading>
                     
                 </Flex>
                 
 
-                <Spacer mt="20px" />
+                <Spacer mt="10px" />
 
                 <hr class="custom-hr" />
                 <Spacer mt={{base:"0px", md:"10px"}} mb="20px" />
@@ -102,7 +102,7 @@ export default function Footer() {
                     {`
         .custom-hr {
           height: 2px; 
-          background-color: black; 
+          background-color: #ebeaed; 
           width: 80%; 
           margin-left: auto; 
           margin-right: auto;
