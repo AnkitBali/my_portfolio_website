@@ -180,7 +180,7 @@ export default function Footer() {
         .custom-hr {
           height: 2px; 
           background-color: #ebeaed; 
-          width: 80%; 
+          width: 90%; 
           margin-left: auto; 
           margin-right: auto;
         }

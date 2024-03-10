@@ -114,7 +114,7 @@ const TopBanner = () => {
   width: 200px
   height : 200px
   border-radius: 100px;
-  padding: 5px;
+  padding: 6px;
         }
         #xyz{
             width: 200px

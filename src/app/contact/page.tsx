@@ -17,7 +17,7 @@ export default function Page() {
           color={"#42446E"}
           fontSize={{ base: "25px", sm: "30px", md: "40px", lg: "45px" }}
         >
-          For any questions please mail us :{" "}
+          For any questions please mail at :{" "}
         </Heading>
         <Text
           as="span"
