@@ -16,12 +16,14 @@ export default function Footer() {
                  textAlign={{base: "center", md: "left"}}
                  alignItems={{base: "center", md: "left"}}
                  >
-                    <Heading display={{base: "none", md: "block"}} color={'#42446E'} fontSize={{base: "15px", md: "15px"}}>
-                        +91 8148253461
+                    <Flex textAlign={{base: "left", md: "center"}} flexDirection={{base: "column", md: "row"}}>
+                    <Heading display={{base: "block", md: "block"}} color={'#42446E'} fontSize={{base: "15px", md: "15px"}}>
+                            <a target="_blank" href="tel:+918148253461"> +91 8148253461 </a>
                     </Heading>
-                    <Heading display={{ base: "block", md: "block" }} ml="20px" color={'#42446E'} fontSize={{ base: "15px", md: "15px" }}>
-                        ankitbali.webdev@gmail.com
+                    <Heading display={{ base: "block", md: "block" }} ml={{base: "0px", md:"20px"}} color={'#42446E'} fontSize={{ base: "15px", md: "15px" }}>
+                            <a target="_blank" href="mailto:ankitbali.webdev@gmail.com"> ankitbali.webdev@gmail.com </a>
                     </Heading>
+                    </Flex>
                     <Box display={{ base: "block", md: "none" }}>
                     <HStack 
                     spacing={"20px"} 
@@ -147,7 +149,8 @@ export default function Footer() {
                     textAlign={{ base: "center", md: "right" }}
                     mr={{ base: "0px", md: '200px' }}
                     px={{ base: "20px", md: "0px" }}
-                    mb={'50px'}>
+                    mb={{base:"30px", md:'50px'}}
+                    >
                     
                     <Text>
                         Design inspiration from Figma Design by <Text
@@ -159,6 +162,9 @@ export default function Footer() {
                         > <a href="https://www.figma.com/@pavanmg007" target="_blank">Pavan MG</a> </Text>
                     </Text>
                 </Box>
+                <Text 
+                mb={{base:"5px", md:"10px"}}
+                 color={"gray.500"} align="center"><p> Copyright &copy; Ankit Bali | All Rights Reserved | {new Date().getFullYear()}</p> </Text>
                 
 
 

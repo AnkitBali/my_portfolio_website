@@ -2,6 +2,7 @@
 import { ChakraProvider, Flex, Box } from '@chakra-ui/react';
 import Navbar from './ui/components/Navbar';
 import Footer from './ui/components/Footer'
+import StickyButton from './ui/components/StickyButton'
 
 export const metadata = {
   title: 'Ankit Balis Portfolio Website',
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
              {children}
            </Flex>
            <Footer />
+           {/* <StickyButton /> */}
          </Box>
        </ChakraProvider>
        </body>
