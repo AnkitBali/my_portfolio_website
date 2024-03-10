@@ -9,24 +9,28 @@ const TopBanner = () => {
 
     return (
         <>
-            <Flex direction={{base: 'column', sm: 'row', md: 'row'}} align="center" justify="center" spacing={16}>
+            <Flex px={{ base: '30px', sm: '20px', md: '70px', lg: '100px' }}
+                mt={{ base: '150px', sm: '150px', md: '120px', lg: '150px' }}
+                 direction={{base: 'column', sm: 'row', md: 'row'}} align="center" justifyContent={'space-between'} justify="center"
+                //   spacing={26}
+                  >
         <Box
-        padding={{base: '0px', sm: '0px', md: '0px', lg: '0px'}}
+        
                 
-                spacing={16}
+                // spacing={16}
                 position="relative" 
                 // top="50%" 
-                left={{base:"35%", sm:"35%", md:"45%", lg:"30%"}} 
-                transform="translateX(-50%)"
-                    alignContent={{ base: 'center', sm: 'left', md: 'left' }}
+                // left={{base:"35%", sm:"35%", md:"45%", lg:"30%"}} 
+                // transform="translateX(-50%)"
+                    // alignContent={{ base: 'center', sm: 'left', md: 'left' }}
                     // textAlign={{ base: 'center', md: 'left' }}
         >
 
             
                
             <Box
-            mt={'150px'}
-            width={{base: '300px', sm: '300px', md: '500px'}}
+            // mt={'150px'}
+            // width={{base: '300px', sm: '300px', md: '500px'}}
             
             >
                 <Flex direction={{base: 'column', md: 'column'}} 
@@ -34,18 +38,18 @@ const TopBanner = () => {
                 >
                     <Text
                     fontWeight={'bold'}
-                    fontSize={{base: '28px', sm: '28px', md: '35px'}} color="#42446E">
+                    fontSize={{base: '32px', sm: '35px', md: '35px'}} color="#42446E">
                         Hi 👋,  
                         
                     </Text>
                             <Text fontWeight={'bold'}
-                                fontSize={{ base: '28px', sm: '28px', md: '35px' }} color="#42446E"
+                                fontSize={{ base: '32px', sm: '35px', md: '35px' }} color="#42446E"
                             > 
                             My name is
                                  </Text>
                         </Flex>
                     <Text
-                            fontSize={{ base: '28px', sm: '28px', md: '35px' }}
+                            fontSize={{ base: '32px', sm: '35px', md: '35px' }}
                             bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 30%)"
                         bgClip="text"
                         fontWeight="bold"
@@ -56,40 +60,24 @@ const TopBanner = () => {
                     </Text>
                     <Text
                         fontWeight={'bold'}
-                            fontSize={{ base: '28px', sm: '28px', md: '35px' }}
+                            fontSize={{ base: '32px', sm: '35px', md: '35px' }}
                          color="#42446E">
                         
-                        I build things for web <br />
+                        I build things for web 
+                        {/* and mobile // for case when I start to build apps as well */}
+                        <br />
+                        
                     </Text>
             </Box>
         </Box>
-        <Spacer />
-            {/* <Box mt={20} mr={'100px'} 
-            // position={'relative'}
-            >
-                    {/* <div
-                        style={{
-                            width: '300px',
-                            height: '300px',
-                            borderRadius: '150px',
-                            border: 'solid 10px transparent',
-                            borderImage: 'linear-gradient(to right, #E70FAA, #00C0FD)',
-                            borderImageSlice: 1
-                        }}
-                        borderRadius={'200px'}
-                    > */}
-                        {/* <Image
-                            width={'300px'}
-                            height={'300px'}
-                            src='/dp.png'
-                            borderRadius={'50%'} // Make the image circular
-                            border={'solid 10px transparent'}
-                            borderImage="linear-gradient(to right, #E70FAA, #00C0FD)"
-                            borderImageSlice={1}
-                        /> */}
-                    {/* </div> */}
-                {/* </Box> */} 
-                <Box mt={{base:"30px", sm:'120px', md:'150px'}} mr={{base: '50px', sm:'50px', md: '100px'}}>
+        {/* <Spacer /> */}
+                <Box
+                 mt={{base:"50px", sm:'0px', md:'0px'}}
+                //   mr={{base: '50px', sm:'50px', md: '100px'}}
+                // px={{base:'10px', sm:'20px', md:'30px', lg: '40px'}}
+                // py={{base: '-100px', sm:'20px'}}
+                // my={{base: '-100px', sm: '0px', md: '0px'}}
+                  >
                     <Box
                         // id={{base:"", sm:"", md:"xyz"}}
                         id="xyz"
@@ -111,8 +99,8 @@ const TopBanner = () => {
                                 // layout="responsive"
                             // width={{ base: '150', sm: '200', md: '250' }} // Adjust image size
                             // height={{ base: '100', sm: '150', md: '200' }}
-                            width="200"
-                            height="200"
+                            width="250"
+                            height="250"
                             src="/dpImg2.jpeg"
                             objectFit="cover" // Ensure the image fills the circular box
                         />
