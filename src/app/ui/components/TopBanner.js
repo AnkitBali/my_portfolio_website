@@ -38,18 +38,18 @@ const TopBanner = () => {
                 >
                     <Text
                     fontWeight={'bold'}
-                    fontSize={{base: '32px', sm: '35px', md: '35px'}} color="#42446E">
+                    fontSize={{base: '31px', sm: '35px', md: '35px'}} color="#42446E">
                         Hi 👋,  
                         
                     </Text>
                             <Text fontWeight={'bold'}
-                                fontSize={{ base: '32px', sm: '35px', md: '35px' }} color="#42446E"
+                                fontSize={{ base: '31px', sm: '35px', md: '35px' }} color="#42446E"
                             > 
                             My name is
                                  </Text>
                         </Flex>
                     <Text
-                            fontSize={{ base: '32px', sm: '35px', md: '35px' }}
+                            fontSize={{ base: '31px', sm: '35px', md: '35px' }}
                             bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 30%)"
                         bgClip="text"
                         fontWeight="bold"
@@ -60,7 +60,7 @@ const TopBanner = () => {
                     </Text>
                     <Text
                         fontWeight={'bold'}
-                            fontSize={{ base: '32px', sm: '35px', md: '35px' }}
+                            fontSize={{ base: '31px', sm: '35px', md: '35px' }}
                          color="#42446E">
                         
                         I build things for web 

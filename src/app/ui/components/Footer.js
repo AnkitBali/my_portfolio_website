@@ -83,7 +83,7 @@ export default function Footer() {
                 <Box 
                     textAlign={{ base: "center", md: "right" }}
                     mr={{ base: "0px", md: '200px' }}
-                    px={{ base: "30px", md: "0px" }}
+                    px={{ base: "20px", md: "0px" }}
                     mb={'50px'}>
                     
                     <Text>

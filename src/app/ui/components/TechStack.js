@@ -51,7 +51,7 @@ const TechStack = () => {
                 <Heading color={'#42446E'} fontSize={{base:'35px', md:'35px'}} mb={'20px'}>
                 My Tech Stack
             </Heading>
-                <Text px={2} py={1} color={'#666666'} fontSize={{base:'32px', md:'32px'}} mb={{base:'100px', sm: '150px', md: '100px'}}>
+                <Text px={2} py={1} color={'#666666'} fontSize={{base:'27px', md:'32px'}} mb={{base:'100px', sm: '150px', md: '100px'}}>
 
                     Technologies I’ve been working with recently
             </Text>
