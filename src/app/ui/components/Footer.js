@@ -97,7 +97,9 @@ export default function Footer() {
                 textAlign={{base: "center", md: "right"}}
                 mr={{base:"0px", md:'200px'}}
                 px={{base: "30px", md: "0px"}}
-                mb={'10px'}>
+                mb={'10px'}
+                    fontWeight="bold"
+                    >
                 <Text>
                         Designed and built by {' '}
                         <Text
@@ -152,20 +154,25 @@ export default function Footer() {
                     mb={{base:"25px", md:'50px'}}
                     >
                     
-                    <Text>
-                        Design inspiration from Figma Design by <Text
+                    <Text fontWeight="bold" fontSize="10px" >
+                        Design inspiration -
+                        <Text
                             as="span"
-                            // fontSize="35px"
+                            fontSize="10px"
                             bgGradient="linear(to-r, #E70FAA 10%, #E70FAA 20%, #00C0FD 60%, #00C0FD 40%)"
                             bgClip="text"
                             fontWeight="bold"
-                        > <a href="https://www.figma.com/@pavanmg007" target="_blank">Pavan MG</a> </Text>
+                        > <a href="https://www.figma.com/file/4TeWFM6cvmAP2X7lxoDdqu/Developer-Portfolio-Design-(Community)?type=design&node-id=0-1&mode=design&t=ftSrVxnW81nDO8Qv-0" target="_blank">Figma Design</a> </Text>
                     </Text>
                 </Box>
-                <Text 
-                mb={{base:"5px", md:"10px"}}
-                 color={"gray.500"} align="center"><p> Copyright &copy; Ankit Bali | All Rights Reserved | {new Date().getFullYear()}</p> </Text>
-                
+                <Text
+                    mb={{ base: "5px", md: "10px" }}
+                    color={"gray.500"}
+                    align="center"
+                    dangerouslySetInnerHTML={{
+                        __html: `Copyright &copy; Ankit Bali | All Rights Reserved | ${new Date().getFullYear()}`
+                    }}
+                />
 
 
                 <style global jsx>
