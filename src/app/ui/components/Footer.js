@@ -149,7 +149,7 @@ export default function Footer() {
                     textAlign={{ base: "center", md: "right" }}
                     mr={{ base: "0px", md: '200px' }}
                     px={{ base: "20px", md: "0px" }}
-                    mb={{base:"30px", md:'50px'}}
+                    mb={{base:"25px", md:'50px'}}
                     >
                     
                     <Text>
