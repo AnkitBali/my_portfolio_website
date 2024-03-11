@@ -131,7 +131,7 @@ export default function Footer() {
                         <Text
                             as="span"
                             // fontSize="35px"
-                            bgGradient="linear(to-r, #E70FAA 10%, #E70FAA 20%, #00C0FD 60%, #00C0FD 40%)"
+                            bgGradient="linear(to-r, #E70FAA 20%, #13B0F5 100%)"
                             bgClip="text"
                             fontWeight="bold"
                         ><a href="https://chakra-ui.com/" target="_blank">Chakra UI {' '}</a>
@@ -140,7 +140,7 @@ export default function Footer() {
                         <Text
                             as="span"
                             // fontSize="35px"
-                            bgGradient="linear(to-r, #E70FAA 10%, #E70FAA 20%, #00C0FD 60%, #00C0FD 40%)"
+                            bgGradient="linear(to-r, #E70FAA 30%, #13B0F5 50%)"
                             bgClip="text"
                             fontWeight="bold"
                         ><a href="https://nextjs.org/" target="_blank">Next.js</a> 
@@ -168,7 +168,7 @@ export default function Footer() {
                         <Text
                             as="span"
                             fontSize="10px"
-                            bgGradient="linear(to-r, #E70FAA 10%, #E70FAA 20%, #00C0FD 60%, #00C0FD 40%)"
+                            bgGradient="linear(to-r, #E70FAA 0%, #13B0F5 40%)"
                             bgClip="text"
                             fontWeight="bold"
                         > <a href="https://www.figma.com/file/4TeWFM6cvmAP2X7lxoDdqu/Developer-Portfolio-Design-(Community)?type=design&node-id=0-1&mode=design&t=ftSrVxnW81nDO8Qv-0" target="_blank">Figma Design</a> </Text>

@@ -50,7 +50,7 @@ const TopBanner = () => {
                         </Flex>
                     <Text
                             fontSize={{ base: '31px', sm: '35px', md: '35px' }}
-                            bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 30%)"
+                            bgGradient="linear(to-r, #E70FAA 0%, #13B0F5 40%)"
                         bgClip="text"
                         fontWeight="bold"
                         ml={{base:'0px', md: '0px'}}
