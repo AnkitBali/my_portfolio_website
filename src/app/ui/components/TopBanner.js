@@ -31,7 +31,7 @@ const TopBanner = () => {
             <Box
             // mt={'150px'}
             // width={{base: '300px', sm: '300px', md: '500px'}}
-            
+                        
             >
                 <Flex direction={{base: 'column', md: 'column'}} 
                 // align={{base: 'center', md: 'left'}}
@@ -50,7 +50,7 @@ const TopBanner = () => {
                         </Flex>
                     <Text
                             fontSize={{ base: '31px', sm: '35px', md: '35px' }}
-                            bgGradient="linear(to-r, #E70FAA 0%, #13B0F5 40%)"
+                            bgGradient="linear(to-r, #E70FAA 0%, #13B0F5 30%)"
                         bgClip="text"
                         fontWeight="bold"
                         ml={{base:'0px', md: '0px'}}
