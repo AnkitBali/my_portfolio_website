@@ -50,7 +50,7 @@ const TopBanner = () => {
                         </Flex>
                     <Text
                             fontSize={{ base: '31px', sm: '35px', md: '35px' }}
-                            bgGradient="linear(to-r, #E70FAA 0%, #13B0F5 30%)"
+                            bgGradient="linear(to-r, #E70FAA 0%, #00C0FD 40%)"
                         bgClip="text"
                         fontWeight="bold"
                         ml={{base:'0px', md: '0px'}}
@@ -101,7 +101,7 @@ const TopBanner = () => {
                             // height={{ base: '100', sm: '150', md: '200' }}
                             width="250"
                             height="250"
-                            src="/dpImg2.jpeg"
+                            src="/dpImg6.jpeg"
                             objectFit="cover" // Ensure the image fills the circular box
                         />
                     </Box>
